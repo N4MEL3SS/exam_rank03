@@ -8,5 +8,5 @@ add_executable(gnl get_next_line/main.c
 		get_next_line/get_next_line.c
 		get_next_line/get_next_line.h)
 add_executable(ft_printf ft_printf/main.c
-		ft_printf/ft_printf.c)
+		ft_printf/ft_printf_short.c ft_printf/ft_printf.c)
 add_executable(micro_paint micro_paint/micro_paint.c)

@@ -12,9 +12,8 @@ int	ft_printf(char const *format, ...);
 int	main(void)
 {
 	int	ret;
-	int r;
 
-	r = 0;
+	ret = 0;
 	PRINT("\n");
 	PRINT("%d\n", -0);
 	PRINT("%d\n", 0);
